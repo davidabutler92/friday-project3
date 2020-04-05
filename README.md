@@ -20,11 +20,11 @@
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **1. The program returns a range of numbers from 0 to the users inputted number | input 3 | output 0,1,2,3
-| **2. The program will replace numbers containing 1 with "beep | input 5 | output 0,beep,2,3,4,5 |
-| **3. The program will replace the numbers containing 2 with "boop" | input 5  | output 1,boop,3,4,5 |
-| **4. The program will replace the numbers container 3 with "wont you be my neighbor?" | input 3 | output 1,2,wont you be my neighbor?" |
-| **5. The program has exceptions, 3 takes priority over 2 and 1 | input 13 | output wont you be my neighbor? |
+| ** 1. The program returns a range of numbers from 0 to the users inputted number | input 3 | output 0,1,2,3
+| ** 2. The program will replace numbers containing 1 with "beep | input 5 | output 0,beep,2,3,4,5 |
+| ** 3. The program will replace the numbers containing 2 with "boop" | input 5  | output 1,boop,3,4,5 |
+| ** 4. The program will replace the numbers container 3 with "wont you be my neighbor?" | input 3 | output 1,2,wont you be my neighbor?" |
+| ** 5. The program has exceptions, 3 takes priority over 2 and 1 | input 13 | output wont you be my neighbor? |
   
 ## Setup/Installation Requirements
 * Make a new directory to clone the repo in.
