@@ -1,0 +1,18 @@
+.container {
+  text-align: center
+}
+
+#results {
+  color: whitesmoke;
+  font-size: 200%;
+}
+
+body  {
+  background-image: url(https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-color: #cccccc;
+}
+
+.jumbotron {
+  background-image: url(https://images.designtrends.com/wp-content/uploads/2015/11/06163757/plain-Backgrounds1.jpg);
+  background-size: cover;
+}

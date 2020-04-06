@@ -3,13 +3,11 @@ $(document).ready(function(){
     event.preventDefault();
     const userInput = $("#userNumber").val();
 
-    
-
-
-
+  
     // buisness logic
     // function(params) {} or params => {}
     // Initialied a function that takes a user input
+    // how can I dynamically generate elements for my list??
     const calNums =  userInput => {
       const arr = [];
       for(let i = 0; i <= userInput; i++) {
