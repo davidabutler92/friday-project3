@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $("#numForm").submit(function(event) {
+    event.preventDefault();
     const userInput = $("#userNumber").val();
 
     
@@ -15,15 +16,20 @@ $(document).ready(function(){
         const arrInput = i;       
         if(arrInput.toString().includes(1)) {
           arr.push("beep");
+        } if(arrInput.toString().includes(2)) {
+            arr.push("boop");
+        } if(arrInput.toString().includes(3)) {
+            arr.push("wont you be my neighbor?");
         } else {
-          arr.push(arrInput);
+            arr.push(arrInput);
         }
       }
       console.log(arr);
       // returning the array after looping
       return arr;
     }
-    calNums(userInput);
+    const userResults = calNums(userInput);
+    $("#results").text(userResults);
   });
 });
 
