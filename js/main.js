@@ -8,16 +8,22 @@ $(document).ready(function(){
 
     // buisness logic
     // function(params) {} or params => {}
-    const loopNums = userInput => {
+    // Initialied a function that takes a user input
+    const calNums =  userInput => {
       const arr = [];
       for(let i = 0; i <= userInput; i++) {
-        const entry = i;
-        arr.push(entry);
+        const arrInput = i;       
+        if(arrInput.toString().includes(1)) {
+          arr.push("beep");
+        } else {
+          arr.push(arrInput);
+        }
       }
       console.log(arr);
+      // returning the array after looping
       return arr;
-    };
-    loopNums(userInput);
+    }
+    calNums(userInput);
   });
 });
 
