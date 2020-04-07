@@ -30,7 +30,7 @@
 * Make a new directory to clone the repo in.
 * Clone repository @ [Click here](https://github.com/davidabutler92/friday-project3.git)
 * Open directory (code .) in terminal.
-*   
+* To see in gh-pages [Click Here](https://davidabutler92.github.io/friday-project3/)  
 * 
 
 ## Known Bugs 
