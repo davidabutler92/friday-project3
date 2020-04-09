@@ -15,12 +15,12 @@ const calNums =  userInput => {
   const arr = []; 
     for(let i = 0; i <= userInput; i++) {
         arrInput = i;       
-      if(arrInput.toString().includes(1)) {
-        arr.push("beep");
-      } if(arrInput.toString().includes(2)) {
+      if(arrInput.toString().includes("3")) {
+        arr.push("wont you be my neighbor?");
+      } else if(arrInput.toString().includes("2")) {
           arr.push("boop");
-      } if(arrInput.toString().includes(3)) {
-          arr.push("wont you be my neighbor?");
+      } else if(arrInput.toString().includes("1")) {
+          arr.push("beep");
       } else {
           arr.push(arrInput);
       }
